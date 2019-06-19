@@ -1,9 +1,36 @@
 @media screen and (max-width: 992px){
-	
+	.feature-left-content{
+		text-align: center;
+	}
+	.feature-left-content span{
+		text-align: center;
+	}
+	.feature-right-content{
+		text-align: center!important;
+	}
 }
 @media screen and (max-width: 768px){
-	
+	.feature-img img{
+		max-width: 85%;
+		margin: 10px auto;
+		display: block;
+	}
+	.feature{
+	margin-top: 0;
 }
+	.feature-left-content{
+		text-align: center;
+		display: flex;
+		flex-direction: row-reverse; 
+	}
+	.feature-left-content span{
+		text-align: center;
+	}
+	.feature-right-content{
+		text-align: center!important;
+		display: flex;
+		 flex-direction: row-reverse; 
+	}
 
 @media screen and (max-width: 576px){
 	.feature-img img{
